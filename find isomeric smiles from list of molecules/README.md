@@ -10,6 +10,7 @@
 ---
 
 It needs python, pip to run. Install requirements
+
 :sparkles: Run pip install -r requirements.txt to install dependencies
 
 :sparkles: Run python structure.py
