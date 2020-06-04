@@ -1,3 +1,7 @@
+# Author: Vasanth Desai
+# Date: 04/06/2020
+# Title: Translates a codon into an aminoacid using an internal dictionary with the standard genetic code
+
 def translate_codon (cod):
     tc = {"GCT":"A", "GCC":"A", "GCA":"A", "GCG":"A",
     "TGT":"C", "TGC":"C", 
