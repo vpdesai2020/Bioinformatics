@@ -1,8 +1,12 @@
+# Author: Vasanth Desai
+# Date: 04/06/2020
+# Title: Reverse complement of the DNA sequence
+
 def reverse_complement (dna_seq):
     assert validate_dna(dna_seq), "Invalid DNA sequence" 
     comp = "" 
     for c in dna_seq.upper(): 
-        if c ==’A’:
+        if c =='A':
             comp = "T" + comp
         elif c =="T":
             comp = "A" + comp
